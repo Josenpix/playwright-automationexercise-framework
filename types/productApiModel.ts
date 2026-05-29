@@ -1,0 +1,12 @@
+export type ProductApiModel = {
+    id: number;
+    name: string;
+    price: string;
+    brand: string;
+    category: {
+        usertype: {
+            usertype: string;
+        };
+        category: string;
+    };
+}
